@@ -96,14 +96,14 @@ def main():
             print("_"*100)
             account_name = input('Account name:')
             print ('\n')
-            u_name = input('User name:')
+            u_name = input('Username:')
             print ('\n')
             pwd = input('Password: ')
             print ('\n')
             e_address = input('Email address:')
             save_accounts(create_account(account_name,u_name,pwd,e_address)) 
             print ('\n')
-            print(f"A New {account_name} Account with the user name  {u_name} has been created.")
+            print(f"A New {account_name} Account with the username  {u_name} has been created.")
             print(f"You can now login to your {account_name} account using your password.")
             print ('\n')
         elif short_code == 'da':
@@ -111,7 +111,7 @@ def main():
                  print("Here are your account details:")
                  print('\n')
                  for account in display_accounts():
-                     print(f"Account name:{account.account_name}  User name: {account.user_name} Password:{account.password}")
+                     print(f"Account name:{account.account_name}  Username: {account.user_name} Password:{account.password}")
                      print('\n')
              else:
                  print('\n')
@@ -151,7 +151,7 @@ def main():
                              print("Here are your credentials")
                              print('\n')
                              for credentials in display_credentials():
-                                 print(f"Credential name:{credentials.credentials_name}  User name: {credentials.usr_name} Password:{credentials.password}")
+                                 print(f"Credential name:{credentials.credentials_name}  Username: {credentials.usr_name} Password:{credentials.password}")
                                  print('\n')
                          else:
                               print('\n')
