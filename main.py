@@ -118,7 +118,7 @@ def main():
                  print("Account not found! Sign up to create a new account.")
                  print('\n')
         elif short_code == 'ln':
-            print("Enter your password to login:")
+            print("Enter your password to log in:")
             search_account = input()
             if check_existing_accounts(search_account):
                 search_cred = find_account(search_account)
