@@ -115,7 +115,7 @@ def main():
                      print('\n')
              else:
                  print('\n')
-                 print("Account not found. Sign up to create a new account.")
+                 print("Account not found! Sign up to create a new account.")
                  print('\n')
         elif short_code == 'ln':
             print("Enter your password to login:")
