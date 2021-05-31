@@ -148,7 +148,7 @@ def main():
                         print ('\n')
                     elif short_code == 'dc':
                          if display_credentials():
-                             print("Here are your credentials")
+                             print("Here are your credentials:")
                              print('\n')
                              for credentials in display_credentials():
                                  print(f"Credential name:{credentials.credentials_name}  Username: {credentials.usr_name} Password:{credentials.password}")
