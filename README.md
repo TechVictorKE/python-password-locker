@@ -6,13 +6,14 @@ This is an amazing application that will help you manage your passwords and even
 
 ## User Stories
 As a user I would like to:
-* Create an account with my details (username and password)
-* Store my existing login credentials
-* Generate a password for a new credential/account
+* See various news sources on the homepage of the application.
+* Select a news source and see all news articles from the selected news source in the application.
+* See the image, description and the time a news article was created.
+* Click on an article and read the full article on the source website.
 
 ### Prerequisites
 
-* Python 3.6
+* Python 3.8
 
 ## Running the Application
 * To run the application, in your terminal:
